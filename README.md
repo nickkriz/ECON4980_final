@@ -1,0 +1,16 @@
+
+Program Description:
+
+This program is designed to take in a file by the user and teach a machine. The file will include a bunch of information on certain businesses all around the nation that are listed on yelp. Within the business information, it needs to include specific tags associated with the program. These include “state”, “category”, etc. that can be seen within the code. These are used to create the dataset that’ll be used by the machine to learn the relationship between star ratings and this data. The file needs to be included in the same directory as this program and needs to be named “business_sample.py”. In addition, another file should be included that’ll be named “business_no_reviews” that will be used to predict star ratings for the businesses included in this file that don’t have star ratings but the same tags.  
+
+Basic Usage:
+
+This program is easy to use. It only involves the user having the files listed above and knowledge about running a program using python. This program will take in the file without the user even knowing it and it will return the user with prediction results for the file of businesses with no star ratings. It will also give information about the accuracy of those results and a confusion matrix as well. More specifically, it will give two different results. The first result will be the logistic model that gives far more accurate results as seen in the values. The second will be the linear model that gives a more linear representation of the stars, meaning it isn’t’ necessarily accurate. A more basic usage could involve the user changing the models used within the code to compare the accuracy of the logistical model with that of other models that could present more accurate findings than the linear model and therefore might be more comparable to the logistical model.
+
+Advanced Usage:
+
+Although this program is very easy to use as it only takes the user running the program for it to properly take place and predict what the user wants. The more advanced usage however could include extending the length of the no reviews file to include more businesses. This would allow the machine to predict even more businesses and possibly give more data to the user depending on what they’d like to know. In addition, the user could alter the code a bit as I stated above. This means they could alter the nature of the program by making certain parts of the data look into more specific info. Moreover, the user could widen the usage of the postal code by using google to teach a machine about businesses in the same area. This could lead to even better findings as we know star ratings for one business could be highly dependent on the businesses around it. 
+
+Other Information:
+
+I’ve also included a “final_write-up” file that gives a very detailed report about why the findings are in fact accurate and why they’re better than the linear model. Also, the write-up lists all the challenges faced throughout the project and how I was able to overcome them. In addition, the report lists out the limitations that I needed to perform such as compatibility issues that involved type casting or changing to categorical variables rather than the typical text. 
